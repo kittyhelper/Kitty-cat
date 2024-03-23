@@ -4,7 +4,7 @@ import path from "path";
 import ejs from "ejs";
 import createBareServer from "@tomphttp/bare-server-node"
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 const app = express();
 const __dirname = process.cwd();
 const server = http.createServer();
