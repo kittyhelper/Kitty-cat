@@ -1,7 +1,6 @@
 {
   "name": "kitty",
   "version": "1.0.0",
-  "description": "a cool site",
   "type": "module",
   "engines": {
     "npm": ">=7.0.0",
@@ -10,8 +9,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
-  "license": "",
   "dependencies": {
     "@tomphttp/bare-server-node": "^1.2.6",
     "bare-server-node": "^2.0.1",
