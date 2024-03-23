@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css"/>
+    <title><%= title %></title>
+</head>
+<style>
+    .error_text{
+      align-content: center;
+      color: white;
+    }
+  
+</style>
+<body>
+    <%- include("partials/navbar") %>
+    <center>
+    <div class = "error_text" style="margin-top: 10%;">
+       <h1 style="font-size: 75px;">404 Error</h1>
+       <img src="./img/logo.png" alt="balls :]" style="width: 10%;"><br/><br/>
+        <p><%= error %></p>
+    </div>
+</center>
+<script src="./js/mobile.js"></script>
+</body>
+</html>
